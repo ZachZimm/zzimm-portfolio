@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-[var(--color-muted)]">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-color-muted">
       <Card className="text-center p-4 ">
         <h1 className="text-6xl font-bold mb-4 text-foreground">
           Zach Zimmermann
