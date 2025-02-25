@@ -2,7 +2,7 @@ import { Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 // import Github from "/github.svg";
 
-interface ProjectProps {
+interface InterestProps {
   title: string;
   description: string;
   imageUrl: string;
@@ -11,14 +11,14 @@ interface ProjectProps {
   githubUrl: string;
 }
 
-export const Project = ({
+export const Interest = ({
   title,
   description,
   imageUrl,
   technologies,
   status,
   githubUrl,
-}: ProjectProps) => {
+}: InterestProps) => {
   return (
     <div className="bg-linear-45 from-chart-2 via-chart-3 to-chart-4 p-5 rounded-lg">
       <div className="bg-background rounded-lg shadow-lg overflow-hidden transform transition-transform hover:scale-105 gap-2">

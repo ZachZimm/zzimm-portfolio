@@ -17,22 +17,27 @@ export const Hero = () => {
         <a href="#projects">
           <Button className="bg-accent-foreground">See my projects</Button>
         </a>
+        <a href="#interests">
+          <Button className="bg-accent-foreground">Other Interests</Button>
+        </a>
       </Card>
       <div className="flex justify-center mt-8">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-6 w-6 text-foreground animate-bounce"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M19 9l-7 7-7-7"
-          />
-        </svg>
+        <a href="#projects" className="scroll-smooth">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-6 w-6 text-foreground animate-bounce"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M19 9l-7 7-7-7"
+            />
+          </svg>
+        </a>
       </div>
     </div>
   );
