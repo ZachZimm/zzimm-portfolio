@@ -14,12 +14,14 @@ export const Hero = () => {
         <p className="text-xl text-muted-foreground mb-8">
           Full Stack Developer & Software Engineer
         </p>
-        <a href="#projects">
-          <Button className="bg-accent-foreground">See my projects</Button>
-        </a>
-        <a href="#interests">
-          <Button className="bg-accent-foreground">Other Interests</Button>
-        </a>
+        <div className="flex flex-row gap-2 justify-center">
+          <a href="#projects">
+            <Button className="bg-accent-foreground">See my projects</Button>
+          </a>
+          <a href="#interests">
+            <Button className="bg-accent-foreground">Other interests</Button>
+          </a>
+        </div>
       </Card>
       <div className="flex justify-center mt-8">
         <a href="#projects" className="scroll-smooth">

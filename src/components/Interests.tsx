@@ -2,9 +2,9 @@ import { Interest } from "./Interest";
 // This project data should probably come from an API or something so it can be updated easily
 const interestsData = [
   {
-    title: "Zephyr Trade",
+    title: "What I'm reading - Neuromancer",
     description:
-      "Crypto and equity investment strategy testing and automation platform with a node-based strategy builder.",
+      "Imagining an 80's future where the internet is a virtual reality and hackers are the new cowboys. The 1984 sci-fi classic that coined the term 'cyberspace'.",
     longDesctiption: "",
     status: "under active development",
     imageUrl: "https://picsum.photos/seed/995/1600/600",
@@ -12,9 +12,9 @@ const interestsData = [
     githubUrl: "https://github.com/ZachZimm/zephyr-trade", // This repo is private!
   },
   {
-    title: "Kocoon",
+    title: "Linux and other people's open source projects",
     description:
-      "Personal finance and investment exploration platform that takes a qualitative and a quantitative approach to financial literacy.",
+      "Linux is my favorite operating system. I run it on my desktop and servers, and use all sorts of open source software, hosting all kinds of services from LLM inference, to a metasearch engine, and audiobook server.",
     longDescription: "",
     status: "development on pause - #1 in queue",
     imageUrl: "https://picsum.photos/seed/997/1600/600",
@@ -22,24 +22,24 @@ const interestsData = [
     githubUrl: "https://github.com/ZachZimm/kocoon",
   },
   {
-    title: "Fluxnote: An idea-centric note-taking backend",
+    title: "Studying computer science and engineering at UNR",
     description:
-      "Fluxnote is an LLM-enhanced notes backend which aims to improve the usefulness of notes or other text-based knowledge in a variety of ways.",
-    longDescription: "",
-    status: "development on pause, may be returned to",
-    imageUrl: "https://picsum.photos/seed/998/1600/600",
-    technologies: ["MongoDB", "LangChain", "FastAPI", "Websockets", "Python"],
-    githubUrl: "https://github.com/ZachZimm/fluxnote",
-  },
-  {
-    title: "Dashtrade",
-    description:
-      "Lightweight Python data collection and analysis tool for live monitoring of cryptocurrency order book and prices.",
+      "I'm a student at the University of Nevada, Reno, studying computer science and engineering. I'm also pursuing minors in both philosophy and math.",
     longDescription: "",
     status: "under active development",
     imageUrl: "https://picsum.photos/seed/999/1600/600",
     technologies: ["PostgreSQL", "Async", "FastAPI", "Python"],
     githubUrl: "https://github.com/ZachZimm/dashtrade",
+  },
+  {
+    title: "My dog, Felix",
+    description:
+      "Felix is my 3 year old rescue dog. He's a mix of a few breeds, but mostly a german shepherd. He loves to go on walks and play with the neighborhood dogs at the park.",
+    longDescription: "",
+    status: "development on pause, may be returned to",
+    imageUrl: "https://picsum.photos/seed/998/1600/600",
+    technologies: ["MongoDB", "LangChain", "FastAPI", "Websockets", "Python"],
+    githubUrl: "https://github.com/ZachZimm/fluxnote",
   },
 ];
 
