@@ -1,5 +1,7 @@
 import "@/App.css";
 import "@/index.css";
+// import the image wallpaper_17_1080p_small.png from the public folder
+import wallpaper_17_1080p_small from "/wallpaper_17_1080p_small.png";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
@@ -21,9 +23,9 @@ export const Hero = () => {
     <div className="min-h-screen flex flex-col items-center justify-center bg-color-muted relative overflow-hidden">
       {/* Background with parallax effect */}
       <div
-        className="absolute inset-0 z-0 opacity-10"
+        className="absolute inset-0 z-0 opacity-20"
         style={{
-          backgroundImage: 'url("https://picsum.photos/id/2/1920/1080")',
+          backgroundImage: `url(${wallpaper_17_1080p_small}`,
           backgroundSize: "cover",
           transform: `translateY(${offset}px)`,
           transition: "transform 0.1s ease-out",
@@ -37,7 +39,12 @@ export const Hero = () => {
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
             Full Stack Developer & Software Engineer
+            <p className="text-[0.95rem] text-muted-foreground">
+              (this site is a work in progress, watch as the stock photos
+              disappear!)
+            </p>
           </p>
+
           <div className="flex flex-row gap-2 justify-center">
             <a href="#projects">
               <Button className="bg-accent-foreground">See my projects</Button>
