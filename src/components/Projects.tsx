@@ -14,7 +14,7 @@ const projectsData = [
   {
     title: "Kocoon",
     description:
-      "Personal finance and investment exploration platform that takes a qualitative and a quantitative approach to financial literacy.",
+      "Personal finance and investment exploration platform that takes a qualitative and a quantitative approach to financial literacy. The WIP demo is available at www.host.zzimm.com/",
     longDescription: "",
     status: "development on pause - #1 in queue",
     imageUrl: "https://picsum.photos/seed/2/800/600",

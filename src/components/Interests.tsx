@@ -17,7 +17,17 @@ const interestsData = [
       "Linux is my favorite operating system. I run it on my desktop and servers, and use all sorts of open source software, hosting all kinds of services from LLM inference, to a metasearch engine, and audiobook server.",
     longDescription: "",
     status: "development on pause - #1 in queue",
-    imageUrl: "https://picsum.photos/seed/997/1600/600",
+    imageUrl: "https://picsum.photos/seed/300/1600/600",
+    technologies: ["React", "MongoDB", "Websockets", "TypeScript", "Python"],
+    githubUrl: "https://github.com/ZachZimm/kocoon",
+  },
+  {
+    title: "Podcasts - the new radio",
+    description:
+      "I listen to lots of podcasts about all sorts of things- from buisness and tech news to philosophy and history. I'm always looking for new recommendations. Expand to see my favorites!",
+    longDescription: "",
+    status: "development on pause - #1 in queue",
+    imageUrl: "https://picsum.photos/seed/889/1600/600",
     technologies: ["React", "MongoDB", "Websockets", "TypeScript", "Python"],
     githubUrl: "https://github.com/ZachZimm/kocoon",
   },
