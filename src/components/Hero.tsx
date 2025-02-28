@@ -32,7 +32,7 @@ export const Hero = () => {
         }}
       />
       <div className="z-10">
-        <Card className="text-center p-4 backdrop-blur-sm bg-background/80">
+        <Card className="text-center p-6 backdrop-blur-sm bg-background/80">
           <h2 className="text-start text-2xl mx-4">Hi, I'm</h2>
           <h1 className="text-6xl font-bold mb-4 text-foreground">
             Zach Zimmermann
