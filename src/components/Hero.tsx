@@ -1,3 +1,4 @@
+import { Github } from "lucide-react";
 import "@/App.css";
 import "@/index.css";
 // import the image wallpaper_17_1080p_small.png from the public folder
@@ -52,7 +53,11 @@ export const Hero = () => {
             <a href="#interests">
               <Button className="bg-accent-foreground">Other interests</Button>
             </a>
-            <Button>Another Button</Button>
+            <a href="https://github.com/ZachZimm">
+              <Button><Github /> Github</Button>
+            </a>
+
+
           </div>
         </Card>
       </div>
