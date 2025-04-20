@@ -2,20 +2,19 @@ import { Interest } from "./Interest";
 // This project data should probably come from an API or something so it can be updated easily
 const interestsData = [
   {
-    title: "What I'm reading - Neuromancer",
-    description:
-      "Imagining an 80's future where the internet is a virtual reality and hackers are the new cowboys. The 1984 sci-fi classic that coined the term 'cyberspace'.",
-    longDesctiption: "",
+    title: "What I'm reading - King Dollar by Paul Blustein",
+    description: "In 'King Dollar: The Past and Future of the World's Dominant Currency,' Paul Blustein explores the history and future of the US dollar as the world's reserve currency. He delves into the economic, political, and social implications of this status, examining how it has shaped global finance and power relations.",
+    longDescription: "Recent reads: \n\nNeuromancer by William Gibson\nI just finished reading Neuromancer by William Gibson, a classic of the cyberpunk genre. The book is set in a dystopian future where the internet is a virtual reality and hackers are the new cowboys. It's a fast-paced, action-packed story that explores themes of technology, identity, and the nature of reality. I highly recommend it to anyone interested in science fiction or cyberpunk.",
     status: "under active development",
     imageUrl: "https://picsum.photos/seed/995/1600/600",
     technologies: ["React", "Numpy", "FastAPI", "Python"],
     githubUrl: "https://github.com/ZachZimm/zephyr-trade", // This repo is private!
   },
   {
-    title: "Linux and other people's open source projects",
+    title: "Linux and the open source ecosystem",
     description:
       "Linux is my favorite operating system. I run it on my desktop and servers, and use all sorts of open source software, hosting all kinds of services from LLM inference, to a metasearch engine, and audiobook server.",
-    longDescription: "",
+    longDescription: "gg",
     status: "development on pause - #1 in queue",
     imageUrl: "https://picsum.photos/seed/300/1600/600",
     technologies: ["React", "MongoDB", "Websockets", "TypeScript", "Python"],

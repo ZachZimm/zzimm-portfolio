@@ -1,4 +1,5 @@
 import { Project } from "./Project";
+import { Card } from "./ui/card";
 // This project data should probably come from an API or something so it can be updated easily
 const projectsData = [
   {
@@ -14,7 +15,7 @@ const projectsData = [
   {
     title: "Kocoon",
     description:
-      "Personal finance and investment exploration platform that takes a qualitative and a quantitative approach to financial literacy. The WIP demo is available at www.host.zzimm.com/",
+      "Personal finance and investment exploration platform that takes a qualitative and a quantitative approach to financial literacy. The WIP demo is available at host.zzimm.com/",
     longDescription: "",
     status: "development on pause - #1 in queue",
     imageUrl: "https://picsum.photos/seed/2/800/600",
@@ -25,7 +26,7 @@ const projectsData = [
     title: "Fluxnote: An idea-centric note-taking backend",
     description:
       "Fluxnote is an LLM-enhanced notes backend which aims to improve the usefulness of notes or other text-based knowledge in a variety of ways.",
-    longDescription: "",
+    longDescription: "Fluxnote is a backend service built around the simple idea that notes shouldn’t live as static documents but as interconnected concepts you can explore, question and expand. At its heart, Fluxnote uses an LLM to parse your raw text into discrete “idea” nodes—snippets of meaning that get stored in a lightweight knowledge graph rather than a monolithic file. From there, you can automatically generate Socratic questions, surface contradictions or alternative viewpoints, and discover new lines of inquiry without ever leaving your notes. \nInspired by Socrates’ relentless questioning and Heraclitus’ emphasis on constant flux, Fluxnote was born out of the frustration of taking notes that felt dead on the page. By treating ideas as first‑class objects, it reduces friction between what you write and what you remember. Today Fluxnote already handles idea extraction, embedding‑based linking, semantic search and LLM‑driven questioning; next up is fine‑tuning the AI prompts, enriching the graph API and smoothing out developer ergonomics so every note you take immediately becomes a living, navigable web of thoughts.",
     status: "development on pause, may be returned to",
     imageUrl: "https://picsum.photos/seed/3/800/600",
     technologies: ["MongoDB", "LangChain", "FastAPI", "Websockets", "Python"],
@@ -103,9 +104,11 @@ export const Projects = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12">My Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {/* <Card className="grid grid-cols-1 md:grid-cols-2 gap-8"> */}
           {projectsData.map((project, index) => (
             <Project key={index} {...project} />
           ))}
+        {/* </Card> */}
         </div>
       </div>
     </div>
