@@ -5,7 +5,7 @@ const projectsData = [
     title: "Zephyr Trade",
     description:
       "Crypto and equity investment strategy testing and automation platform with a node-based strategy builder.",
-    longDesctiption: "",
+    longDescription: "Zephyr Trade is a local, config‑file driven platform for designing, backtesting and (in principle) automating crypto and equity strategies. At its core is a node‑based strategy builder where you define every asset, data source, indicator and interaction in JSON. The engine can run historical backtests on your data and is wired up to execute live orders via Kraken API keys (live trading is still untested). There’s a lot more that could be built—but the basic pieces are in place: strategy interpretation, data ingestion, backtesting and, execution hooks. Future work will focus on validating live execution, integrating other deep-learning work I've been doing, expanding built‑in indicators, and building a user-interface, but even today Zephyr Trade offers a flexible foundation for experimenting with and comparing custom quantitative strategies.",
     status: "under active development",
     imageUrl: "https://picsum.photos/seed/996/800/600",
     technologies: ["React", "Numpy", "FastAPI", "Python"],

@@ -23,7 +23,7 @@ export const Hero = () => {
     <div className="min-h-screen flex flex-col items-center justify-center bg-color-muted relative overflow-hidden">
       {/* Background with parallax effect */}
       <div
-        className="absolute inset-0 z-0 opacity-20"
+        className="absolute inset-0 z-0 opacity-30"
         style={{
           backgroundImage: `url(${wallpaper_17_1080p_small}`,
           backgroundSize: "cover",
@@ -52,6 +52,7 @@ export const Hero = () => {
             <a href="#interests">
               <Button className="bg-accent-foreground">Other interests</Button>
             </a>
+            <Button>Another Button</Button>
           </div>
         </Card>
       </div>
