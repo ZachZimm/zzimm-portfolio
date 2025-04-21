@@ -20,6 +20,14 @@ export const Hero = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Helper for smooth scrolling
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-color-muted relative overflow-hidden">
       {/* Background with parallax effect */}
@@ -47,17 +55,27 @@ export const Hero = () => {
           </p>
 
           <div className="flex flex-row gap-2 justify-center">
-            <a href="#projects">
+            <a
+              href="#projects"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("projects");
+              }}
+            >
               <Button className="bg-accent-foreground">See my projects</Button>
             </a>
-            <a href="#interests">
+            <a
+              href="#interests"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("interests");
+              }}
+            >
               <Button className="bg-accent-foreground">Other interests</Button>
             </a>
             <a href="https://github.com/ZachZimm">
               <Button><Github /> Github</Button>
             </a>
-
-
           </div>
         </Card>
       </div>
