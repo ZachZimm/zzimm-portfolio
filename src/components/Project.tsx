@@ -40,23 +40,24 @@ export const Project = ({
             <div className="p-6">
               <h3 className="text-xl text-primary font-bold mb-2">{title}</h3>
               <p className="text-muted-foreground mb-4">{description}</p>
-              <div className="flex flex-row gap-2">
-                <Github />
-                <a className="text-muted-foreground" href={githubUrl}>
-                  View on Github - {status}
-                </a>
+              <div className="border-muted-foreground border-2 rounded-md p-2 mb-4">
+                <div className="flex flex-row gap-2">
+                  <Github />
+                  <a className="text-muted-foreground" href={githubUrl}>
+                    View on Github - {status}
+                  </a>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {technologies.map((tech, index) => (
+                    <span
+                      key={index}
+                      className="px-3 py-1 bg-accent text-accent-foreground rounded-full text-sm"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
               </div>
-              <div className="flex flex-wrap gap-2">
-                {technologies.map((tech, index) => (
-                  <span
-                    key={index}
-                    className="px-3 py-1 bg-accent text-accent-foreground rounded-full text-sm"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-              {/* TODO - Create a page for each project*/}
             </div>
           </Card>
       </DialogTrigger>

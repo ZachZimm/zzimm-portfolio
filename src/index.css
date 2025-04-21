@@ -6,12 +6,14 @@
 :root {
   --background: oklch(96.22% 0.0569 95.61);
   --secondary-background: oklch(100% 0 0);
+  --accent: oklch(99.5% 0.015 50);
   --foreground: oklch(0% 0 0);
   --main-foreground: oklch(0% 0 0);
   --main: oklch(84.08% 0.1725 84.2);
   --border: oklch(0% 0 0);
   --ring: oklch(0% 0 0);
   --overlay: oklch(0% 0 0 / 0.8);
+  --muted-foreground: oklch(0.2 0.0 01);
   --shadow: 2px 4px 0px 0px var(--border);
 }
 
@@ -29,12 +31,14 @@
 @theme inline {
   --color-main: var(--main);
   --color-background: var(--background);
+  --color-accent: var(--accent);
   --color-secondary-background: var(--secondary-background);
   --color-foreground: var(--foreground);
   --color-main-foreground: var(--main-foreground);
   --color-border: var(--border);
   --color-overlay: var(--overlay);
   --color-ring: var(--ring);
+  --color-muted-foreground: var(--muted-foreground);
 
   --spacing-boxShadowX: 2px;
   --spacing-boxShadowY: 4px;

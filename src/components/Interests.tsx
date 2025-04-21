@@ -24,7 +24,7 @@ const interestsData = [
     title: "Podcasts - the new radio",
     description:
       "I listen to lots of podcasts about all sorts of things- from buisness and tech news to philosophy and history. I'm always looking for new recommendations. Expand to see my favorites!",
-    longDescription: "",
+    longDescription: "My subscription list is always increasing, but here are some highlights:\n\nHistory: Dan Carlin's Hardcore History - A deep dive into historical events and figures, with a focus on storytelling and analysis.\n\nLinux: Linux Unplugged - A Linux talkshow that covers the latest news and developments in the Linux world, with a focus on community and open source software.\n\nNews: The Daily Inference - An AI-generated podcast that I create each morning using a PDF of the Wall Street Journal and some custom code with a few LLM calls and a TTS system to narrate the script. \n\nPhilosophy: Philosiphize This! - A podcast that explores the ideas and works of philosophers throughout history, keeping the discussion grounded in the context of modern life.\n\n\nSome others that I enjoy: Advent of Computing, Huberman Lab, American Hysteria, and many more.",
     status: "development on pause - #1 in queue",
     imageUrl: "https://picsum.photos/seed/889/1600/600",
     technologies: ["React", "MongoDB", "Websockets", "TypeScript", "Python"],

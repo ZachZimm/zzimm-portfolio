@@ -79,7 +79,7 @@ const projectsData = [
   {
     title: "Pytrade",
     description:
-      "My first serious project, a Python trading bot that connects to the Kraken websocket API and executes trades based on custom and backtested strategy - with a React UI.",
+      "My first serious project, a Python trading bot that connects to the Kraken websocket API and executes trades based on custom backtested strategy - with a React UI. Hosted on my first server too!",
     longDescription: "",
     status: "development complete",
     imageUrl: "https://picsum.photos/seed/7/800/600",
