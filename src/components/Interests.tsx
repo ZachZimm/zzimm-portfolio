@@ -14,7 +14,7 @@ const interestsData = [
     title: "Linux and the open source ecosystem",
     description:
       "Linux is my favorite operating system. I run it on my desktop and servers, and use all sorts of open source software, hosting all kinds of services from LLM inference, to a metasearch engine, and audiobook server.",
-    longDescription: "gg",
+    longDescription: "",
     status: "development on pause - #1 in queue",
     imageUrl: "https://picsum.photos/seed/300/1600/600",
     technologies: ["React", "MongoDB", "Websockets", "TypeScript", "Python"],

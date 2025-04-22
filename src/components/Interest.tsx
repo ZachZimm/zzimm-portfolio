@@ -44,7 +44,9 @@ export const Interest = ({ title, description, longDescription, imageUrl, techno
           <img src={imageUrl} alt={title} className="w-full h-64 object-cover rounded-md" />
 
           <h4 className="text-lg font-bold">Long Description</h4>
-          <p>{longDescription}</p>
+          <p className="whitespace-pre-wrap">
+            {longDescription}
+          </p>
         </div>
         <DialogFooter>
           <DialogClose asChild>

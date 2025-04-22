@@ -78,7 +78,7 @@ export const Project = ({
           </div>
           <div className="mt-4">
             <h4 className="text-lg font-semibold">Long Description</h4>
-            <p>{longDescription}</p>
+            <p className="whitespace-pre-wrap">{longDescription}</p>
           </div>
           <div className="flex items-center gap-2">
             <Github />
